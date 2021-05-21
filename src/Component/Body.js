@@ -106,7 +106,7 @@ export default function Body() {
       </div>
 
       <Tabs defaultActiveKey="2">
-        <TabPane tab="Trending" key="0">
+        <TabPane tab="Trending" key="1">
           <div className="ListFilm">
             {topMovies?.length > 0 &&
               topMovies?.map((m) => <Movies key={m.id} {...m} />)}
