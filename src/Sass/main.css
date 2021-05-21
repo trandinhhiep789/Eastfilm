@@ -1,0 +1,93 @@
+.MovieContent {
+  width: 300px;
+  margin: 1rem;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.MovieContent img {
+  max-width: 100%;
+}
+
+.MovieContent .MoviesTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.search:focus {
+  outline: 0 !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: white;
+}
+
+.tag {
+  padding: 2px;
+  border-radius: 10%;
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tag.green {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.205);
+}
+
+.tag.orange {
+  color: orange;
+  background-color: rgba(255, 166, 0, 0.267);
+}
+
+.tag.red {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.281);
+}
+
+.detailContent .smallPicture {
+  width: 300px;
+  margin-top: -22%;
+  border-radius: 56px;
+}
+
+@media screen and (max-width: 992px) {
+  .row .col .detailContent .smallPicture {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  .row .col .detailContent .smallPicture {
+    width: 200px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row .col .detailContent .smallPicture {
+    width: 150px;
+    height: 180px;
+  }
+}
+
+.ListFilm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */

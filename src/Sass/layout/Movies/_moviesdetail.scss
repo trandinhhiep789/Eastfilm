@@ -1,0 +1,67 @@
+.detailContent{
+    .smallPicture{
+        width: 300px;
+        margin-top: -22%;
+        border-radius: 56px;
+    }
+}
+
+@include responsive("extra-large") {
+
+    .row{
+        .col{
+            .detailContent{
+                .smallPicture{
+                    // width: 250px;
+                    // height: 400px;
+                }
+            }
+        }
+    }
+   
+}
+
+@include responsive("large") {
+
+    .row{
+        .col{
+            .detailContent{
+                .smallPicture{
+                    width: 200px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+   
+}
+
+@include responsive("medium") {
+
+    .row{
+        .col{
+            .detailContent{
+                .smallPicture{
+                    width: 200px;
+                    height: 240px;
+                }
+            }
+        }
+    }
+   
+}
+
+@include responsive("small") {
+
+    .row{
+        .col{
+            .detailContent{
+                .smallPicture{
+                    width: 150px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+   
+}
